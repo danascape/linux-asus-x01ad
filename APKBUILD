@@ -2,7 +2,7 @@
 # Kernel config based on: arch/arm64/configs/(CHANGEME!)
 
 pkgname=linux-asus-x01ad
-pkgver=3.x.x
+pkgver=4.9.267
 pkgrel=0
 pkgdesc="Asus Max M2 kernel fork"
 arch="aarch64"
@@ -22,8 +22,8 @@ makedepends="
 "
 
 # Source
-_repository="(CHANGEME!)"
-_commit="ffffffffffffffffffffffffffffffffffffffff"
+_repository="android_kernel_asus_X01AD"
+_commit="c3e365429f70ec6fea174ef0f92437283abcb938"
 _config="config-$_flavor.$arch"
 source="
 	$pkgname-$_commit.tar.gz::https://github.com/LineageOS/$_repository/archive/$_commit.tar.gz
